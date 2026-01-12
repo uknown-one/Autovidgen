@@ -29,3 +29,8 @@ jobs:
         cache: 'npm'
     - run: npm ci
     - run: npm run build
+    - name: NPM Published Version Check
+  # You may pin to the exact commit or the version.
+  # uses: tehpsalmist/npm-publish-status-action@01cb25946b194a7a5468f22c8e74db04c283f121
+      uses: tehpsalmist/npm-publish-status-action@v1
+          
